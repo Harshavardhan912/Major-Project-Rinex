@@ -12,6 +12,7 @@ ip = st.text_input("Enter your message:")
 op = model_nb.predict([ip])
 if st.button('Predict Category'):
   st.title(op[0])  #prints the output as  sports or politics or world
+           
 
   
                                     
